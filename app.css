@@ -50,6 +50,7 @@ body{
 .tagline {
     color: white;
     font-size: 4.5rem;
+    text-align: center;
     letter-spacing: 2px;
     padding: 32px 0;
 }
