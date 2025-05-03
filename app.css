@@ -177,3 +177,47 @@ footer a:visited {
 footer p {
     margin-bottom: 0;
 }
+
+@media only screen and (max-width: 1000px){
+    .hero_content {
+        padding: 0 10%;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    .tagline {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .tagline {
+        font-size: 2rem;
+    }
+    
+    .links {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    .two-column-section > p {
+        width: 100%;
+    }
+
+    .two-column-section * {
+        margin: 15px 0;
+    }
+
+    .two-column-section .skills{
+        width: 100%;
+    }
+
+    .blog-posts {
+        width: 90%;
+    }
+
+    .events-card {
+        width: 90%;
+    }
+}
